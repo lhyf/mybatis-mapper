@@ -10,4 +10,10 @@
     <result column="emp_salary" jdbcType="DOUBLE" property="empSalary" />
     <result column="emp_age" jdbcType="INTEGER" property="empAge" />
   </resultMap>
+
+  <!--EmployeeVo selectByCustom(int i);-->
+  <select id="selectByCustom" resultType="org.lhyf.mybatis.model.Vo.EmployeeVo">
+    select emp_id , emp_name,emp_salary from t_employee where emp_id =#{id}
+  </select>
+
 </mapper>

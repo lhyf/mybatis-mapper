@@ -2,9 +2,9 @@ spring:
   datasource:
     username: root
     password: 123456
-    url: jdbc:mysql://127.0.0.1:3306/admin-common?useUnicode=true&characterEncoding=UTF-8&useSSL=true
+    url: jdbc:mysql://127.0.0.1:3306/mapper?userUnicode=true&characterEncoding=UTF-8&useSSL=true
     driver-class-name: com.mysql.jdbc.Driver
-    #ʹ��druid����Դ
+    #使用druid数据源
     type: com.alibaba.druid.pool.DruidDataSource
     druid:
       initial-size: 5
@@ -12,8 +12,11 @@ spring:
       max-active: 20
       test-on-borrow: true
 
+
 mybatis:
   mapper-locations: classpath:mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true #开启驼峰命名
 
 pagehelper:
   helper-dialect: mysql
@@ -22,8 +25,14 @@ pagehelper:
   params: count=countSql
 
 mapper:
-# �Զ���ͨ��Mapper�ӿ��ٴ˶���
-#  mappers:
-#    - org.lhyf.mybatis.mapper
-  not-empty: false
+  # 扩展通用mapper接口时,自己开发的接口在此注册,或者使用@RegisterMapper 注解标注
+  #  mappers: org.lhyf.mybatis.mapper.MyCustomMapper
+  not-empty: true
+  # 取回主键的方式
   identity: MYSQL
+
+logging:
+  level:
+    org:
+      lhyf:
+        debug
