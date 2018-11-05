@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Pro01Mapper/Pro01Mapper.iml" filepath="$PROJECT_DIR$/Pro01Mapper/Pro01Mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pro02MGB/Pro02MGB.iml" filepath="$PROJECT_DIR$/Pro02MGB/Pro02MGB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pro03Extend/Pro03Extend.iml" filepath="$PROJECT_DIR$/Pro03Extend/Pro03Extend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-mapper.iml" filepath="$PROJECT_DIR$/mybatis-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pro04springboot/pro04springboot.iml" filepath="$PROJECT_DIR$/pro04springboot/pro04springboot.iml" />
+    </modules>
+  </component>
+</project>

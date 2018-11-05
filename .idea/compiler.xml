@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Pro01Mapper" />
+        <module name="Pro02MGB" />
+        <module name="Pro03Extend" />
+        <module name="pro04springboot" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mybatis-mapper" target="1.8" />
+      <module name="Pro01Mapper" target="1.8" />
+      <module name="Pro02MGB" target="1.8" />
+      <module name="Pro03Extend" target="1.8" />
+      <module name="pro04springboot" target="1.8" />
+      <module name="springboot-mapper" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
