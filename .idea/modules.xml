@@ -7,7 +7,6 @@
       <module fileurl="file://$PROJECT_DIR$/Pro03Extend/Pro03Extend.iml" filepath="$PROJECT_DIR$/Pro03Extend/Pro03Extend.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis-mapper.iml" filepath="$PROJECT_DIR$/mybatis-mapper.iml" />
       <module fileurl="file://$PROJECT_DIR$/pro04springboot/pro04springboot.iml" filepath="$PROJECT_DIR$/pro04springboot/pro04springboot.iml" />
-      <module fileurl="file://$PROJECT_DIR$/pro04springboot/pro04springboot.iml" filepath="$PROJECT_DIR$/pro04springboot/pro04springboot.iml" />
     </modules>
   </component>
 </project>
